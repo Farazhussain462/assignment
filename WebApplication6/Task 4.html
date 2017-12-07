@@ -1,0 +1,44 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Task 4</title>
+    <link href="Content/bootstrap.min.css" rel="stylesheet" />
+    <script src="Scripts/bootstrap.min.js"></script>
+    <script src="Scripts/jquery-1.10.2.min.js"></script>
+
+    <script>
+
+        function farazfunction()
+        {
+            var f = document.getElementById('1').value;
+            document.getElementById('2').value = f;
+        }
+       
+        
+
+
+
+    </script>
+</head>
+<body style="background-color:aquamarine">
+
+
+    <h1 class="text-center">Task 4</h1>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 col-md-offset-3">
+
+                
+
+                <label>Character 1</label>
+                <input type="text" onkeyup="farazfunction()" class="form-control" id="1" name="name" value=" " />
+                <br />
+                <label>Character 2</label>
+                <input type="text" onkeyup="farazfunction()" class="form-control" id="2" name="name" value=" " />
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
